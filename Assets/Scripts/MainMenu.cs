@@ -29,3 +29,4 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Player Has Quit The Game");
     }
 }
+
