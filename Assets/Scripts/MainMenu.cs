@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public bool isGameActive;
 
+
     // Start is called before the first frame update
     void Start()
     {
