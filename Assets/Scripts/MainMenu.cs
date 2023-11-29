@@ -33,5 +33,9 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Player Has Quit The Game");
     }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
 
