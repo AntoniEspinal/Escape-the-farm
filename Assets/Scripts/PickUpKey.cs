@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PickUpKey : MonoBehaviour
 {
-    public GameObject Key;
+    public GameObject KeyOnPlayer;
     // Start is called before the first frame update
     void Start()
     {
-        Key.SetActive(false);
+        KeyOnPlayer.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,12 +17,17 @@ public class PickUpKey : MonoBehaviour
         
     }
 
-    private void OnTriggerStaY(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKey(KeyCode.E))
+        if (other.gameObject.tag == "Player")
         {
-            this.gameObject.SetActive(false);
-            Key.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                this.gameObject.SetActive(false);
+
+                KeyOnPlayer.SetActive(true);
+            }        
         }
+        
     }
 }
