@@ -8,8 +8,8 @@ public class Player : MonoBehaviour
     public float speed = 5.0f;
     float horizontalInput;
     float forwardInput;
-    private Vector3 crouchScale = new Vector3(1, 0.5f, 1);
-    private Vector3 playerScale = new Vector3(1, 1f, 1);
+    private Vector3 crouchScale = new Vector3(2, 0.5f, 2);
+    private Vector3 playerScale = new Vector3(3, 3f, 3);
 
     // Start is called before the first frame update
     void Start()
