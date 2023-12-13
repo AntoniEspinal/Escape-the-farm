@@ -8,9 +8,14 @@ public class Player : MonoBehaviour
     public float speed = 5.0f;
     float horizontalInput;
     float forwardInput;
+
+    PickUpKey pickUpKeyScript;
+    DoorControllere door; 
     // Start is called before the first frame update
     void Start()
     {
+        door = GameObject.Find("Door Hinge").GetComponent<DoorControllere>();
+        pickUpKeyScript = GameObject.Find("Key").GetComponent<PickUpKey>();
         playerRb = GetComponent<Rigidbody>();
     }
 
@@ -22,6 +27,11 @@ public class Player : MonoBehaviour
 
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
+
+        if(pickUpKeyScript.hasKey == true)
+        {
+            door.OpenDoor();
+        }
        
         
     }

@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58642
+49448
 Successfully changed project path to: /Users/game56/Documents/GitHub/Escape-the-farm
-Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game56/Documents/GitHub/Escape-the-farm
+/Users/game56/Documents/GitHub/Escape-the-farm
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game56/Documents/GitHub/Escape-the-farm/Assets
 GfxDevice: creating device client; threaded=0
-2023-12-06 13:30:43.260 Unity[27767:1253880] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-12-06 13:30:43.260 Unity[27767:1253880] Metal devices available: 1
-2023-12-06 13:30:43.260 Unity[27767:1253880] 0: AMD Radeon Pro 5500 XT (high power)
-2023-12-06 13:30:43.260 Unity[27767:1253880] Using device AMD Radeon Pro 5500 XT (high power)
+2023-12-11 13:32:11.026 Unity[1168:19465] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2023-12-11 13:32:11.026 Unity[1168:19465] Metal devices available: 1
+2023-12-11 13:32:11.026 Unity[1168:19465] 0: AMD Radeon Pro 5500 XT (high power)
+2023-12-11 13:32:11.026 Unity[1168:19465] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56767
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000467 seconds.
+Registered in 0.000452 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 29.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.515 seconds
+- Completed reload, in  0.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (515ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (36ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (156ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (30ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001634 seconds.
+Registered in 0.001612 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  0.918 seconds
 Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (256ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.005655 seconds.
+Validating Project structure ... 0.006731 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.033895 seconds.
+Upgrading shader files ...0.041662 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -131,12 +131,12 @@ Initializing Unity extensions:
 Worker process is ready to serve import requests
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 237.2 MB.
-System memory in use after: 236.5 MB.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.3 MB.
+System memory in use after: 236.6 MB.
 
-Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 2480.
-Total: 2.626711 ms (FindLiveObjects: 0.155714 ms CreateObjectMapping: 0.064199 ms MarkObjects: 2.003976 ms  DeleteObjects: 0.402202 ms)
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 2.610165 ms (FindLiveObjects: 0.126729 ms CreateObjectMapping: 0.053233 ms MarkObjects: 2.013502 ms  DeleteObjects: 0.416088 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,267 +150,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/New Material 1.mat
-  artifactKey: Guid(02ad6abe4f979405c81ac8161025ca95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 1.mat using Guid(02ad6abe4f979405c81ac8161025ca95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1723e261cef9946280ade2c39e4d7f51') in 0.892169 seconds 
-  Import took 0.896534 seconds .
+  path: Assets/Materials/scifi_main_menu.jpeg
+  artifactKey: Guid(6a231d0a4218c49419d6b0b9e96c0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/scifi_main_menu.jpeg using Guid(6a231d0a4218c49419d6b0b9e96c0157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a44a73784bfe1b8644e250cf953c2e9') in 0.796357 seconds 
+  Import took 0.800802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.227811 seconds.
-  path: Assets/_TerrainAutoUpgrade/tinker.obj
-  artifactKey: Guid(42404c82e6daa4617a56b94e866b7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/tinker.obj using Guid(42404c82e6daa4617a56b94e866b7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f32fc75839fc077a86452b86565ddd5') in 0.388930 seconds 
-  Import took 0.394537 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/Materials/rt.jpeg
+  artifactKey: Guid(12301f879ddb64bbb80a69182ee5d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/rt.jpeg using Guid(12301f879ddb64bbb80a69182ee5d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347d150b9b5073c0a311723e8111f08') in 0.008401 seconds 
+  Import took 0.010655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 389.815481 seconds.
-  path: Assets/Materials/Materials/Wood Planks.mat
-  artifactKey: Guid(0d09ab1f752c948f1821a6db75421724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Wood Planks.mat using Guid(0d09ab1f752c948f1821a6db75421724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8cd0cc03d5b388ff65282afff22be2') in 0.008196 seconds 
-  Import took 0.010902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.763919 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed
-  artifactKey: Guid(40c0b79b260872349872bfcd710b811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed using Guid(40c0b79b260872349872bfcd710b811b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ca146adbff2892029f5f304cfc8b95') in 0.001179 seconds 
-  Import took 0.003760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.965329 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512
-  artifactKey: Guid(45b9a6d90a8e6499eaf237c1a2b4fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512 using Guid(45b9a6d90a8e6499eaf237c1a2b4fbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de078c0a0f1d96a1dd639afd783aba24') in 0.001038 seconds 
-  Import took 0.003412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061080 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_Albedo.tif
-  artifactKey: Guid(e054b01c97f2e0541834c6accb6f3e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_Albedo.tif using Guid(e054b01c97f2e0541834c6accb6f3e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d16843cadf0198c6d40a4d3c07b5d') in 0.686574 seconds 
-  Import took 0.691453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_Albedo.tif
-  artifactKey: Guid(59489e3105e60574d8e752c61caf07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_Albedo.tif using Guid(59489e3105e60574d8e752c61caf07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb724e9b75534acc8f9c73bdfa07413') in 0.007482 seconds 
-  Import took 0.009760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_Albedo.tif
-  artifactKey: Guid(0b3950198b1b3a94586ed2d764a15bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_Albedo.tif using Guid(0b3950198b1b3a94586ed2d764a15bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e43c2ea854f32d70f49392760e9d5ae') in 0.006852 seconds 
-  Import took 0.009120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(a73fe178b8e1c5d45b6a48edf74d2057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_MetallicSmoothness2.tif using Guid(a73fe178b8e1c5d45b6a48edf74d2057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c808606773b01acf221a7c1e95efe6') in 0.007527 seconds 
-  Import took 0.010067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Normal.tif
-  artifactKey: Guid(8f85b937cbfa38942b6f2f4fa18d484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Normal.tif using Guid(8f85b937cbfa38942b6f2f4fa18d484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facb7abfcd6d0e90c149191064f7d56') in 0.008174 seconds 
-  Import took 0.010702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(0a02a2889fcff754ca627046ca4b604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_MetallicSmoothness2.tif using Guid(0a02a2889fcff754ca627046ca4b604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597130cfbb6e92ee0db53935851bf309') in 0.006557 seconds 
-  Import took 0.008615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_AO.tif
-  artifactKey: Guid(64e0a1bd90626f340b9f6d71debd6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_AO.tif using Guid(64e0a1bd90626f340b9f6d71debd6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36dd23d4a020820bd7e3162ad3e43db') in 0.007169 seconds 
-  Import took 0.009454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_Normal.tif
-  artifactKey: Guid(a4e19258cb392c04fbf7d111b5da89f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_Normal.tif using Guid(a4e19258cb392c04fbf7d111b5da89f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8313757eb0f24f6816dbe7f8e31e02aa') in 0.008433 seconds 
-  Import took 0.010960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_AO.tif
-  artifactKey: Guid(0f900e295a80ac448bdacc627803df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_AO.tif using Guid(0f900e295a80ac448bdacc627803df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5e5c312e287c8fa4003c6e07ede6f1') in 0.007553 seconds 
-  Import took 0.010015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(906dd03275894484794895f15812a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_MetallicSmoothness2.tif using Guid(906dd03275894484794895f15812a377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611b89f7b81c2feb7a52584b02eddd12') in 0.007505 seconds 
-  Import took 0.010125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_Normal.tif
-  artifactKey: Guid(fe5c7b82554026344a4ea1afe8f4c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_Normal.tif using Guid(fe5c7b82554026344a4ea1afe8f4c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0248e044a164763ce79ef0d0799df92a') in 0.008465 seconds 
-  Import took 0.011108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_Albedo.tif
-  artifactKey: Guid(d1222621557a2c64ab43384dd635fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_Albedo.tif using Guid(d1222621557a2c64ab43384dd635fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea24c7aa241f77070eb8a05bf7242b') in 0.006703 seconds 
-  Import took 0.008966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Emission.tif
-  artifactKey: Guid(65740ffbbc754df4288b47d65bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Emission.tif using Guid(65740ffbbc754df4288b47d65bed1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3d7b7c0cf1fbb2ce71d2ed7cb7e21c') in 0.005868 seconds 
-  Import took 0.008143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Albedo.tif
-  artifactKey: Guid(3ceb680f7aeebdb419188b04f53197ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_Albedo.tif using Guid(3ceb680f7aeebdb419188b04f53197ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554585c93b93fcd5ea2985b3651e1fff') in 0.007467 seconds 
-  Import took 0.009861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(6eb2a62575960884782ad6451285bb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_MetallicSmoothness2.tif using Guid(6eb2a62575960884782ad6451285bb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78eb750bb844f2c39e84baaa208d193') in 0.007157 seconds 
-  Import took 0.010608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_Normal.tif
-  artifactKey: Guid(246329064d0fdb14283bbdba45c5ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDoorsMA_RustedRed_Normal.tif using Guid(246329064d0fdb14283bbdba45c5ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20035fb13cefa8c309280803344d1ab') in 0.008422 seconds 
-  Import took 0.011104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_Normal.tif
-  artifactKey: Guid(87df59fa092128d4a8bcbe7d438d1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetSupportMA_RustedRed_Normal.tif using Guid(87df59fa092128d4a8bcbe7d438d1a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca713a95285591fa9a42ba533cdb1ebf') in 0.006517 seconds 
-  Import took 0.008749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_Normal.tif
-  artifactKey: Guid(e1685888d31d6f144b3c523adeebaf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MatalCabinetShelfMA_RustedRed_Normal.tif using Guid(e1685888d31d6f144b3c523adeebaf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df76b99c7601680df5f520431fc7eb8e') in 0.007491 seconds 
-  Import took 0.009831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(74ece1e86ca8363449efb11a7b341ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_MetallicSmoothness2.tif using Guid(74ece1e86ca8363449efb11a7b341ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619f5f90dffe8a4dcc17eed862775737') in 0.007061 seconds 
-  Import took 0.009563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_AO.tif
-  artifactKey: Guid(432ec22c26630374da24355c094119f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetBodyMA_RustedRed_AO.tif using Guid(432ec22c26630374da24355c094119f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f40c0a2a4c4a8f131452554b88cb3fa') in 0.006084 seconds 
-  Import took 0.008510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_Albedo.tif
-  artifactKey: Guid(4aa3c7434b3157946a4e1d142a5a7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetHandlesMA_RustedRed_Albedo.tif using Guid(4aa3c7434b3157946a4e1d142a5a7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f31352ef02c4d8a19add06381cf94cc') in 0.006562 seconds 
-  Import took 0.009114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_MetallicSmoothness2.tif
-  artifactKey: Guid(3687f1fd249adae47a2882929f6ffee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabientCornersupportMA_RustedRed_MetallicSmoothness2.tif using Guid(3687f1fd249adae47a2882929f6ffee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7911089fc8103c5a3f21380157c89689') in 0.007838 seconds 
-  Import took 0.010247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.275664 seconds.
-  path: Assets/Key_1.blend
-  artifactKey: Guid(a8e5ed3819b264e7aa1035235a8ae646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Key_1.blend using Guid(a8e5ed3819b264e7aa1035235a8ae646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35d425a7dd1928f8554421c0b907d25') in 0.730933 seconds 
-  Import took 0.736801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.998485 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.000898 seconds 
-  Import took 0.003169 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(1fd2c1c27a57242b08a9e956d77e9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(1fd2c1c27a57242b08a9e956d77e9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c529c0f4e924a6c642c427e415c9b0ae') in 0.789874 seconds 
+  Import took 0.794889 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001592 seconds.
+Registered in 0.001673 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  0.936 seconds
 Domain Reload Profiling:
-	ReloadAssembly (918ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (757ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (283ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (278ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -418,12 +210,68 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.2 MB.
-System memory in use after: 245.8 MB.
+Unloading 1847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.6 MB.
+System memory in use after: 236.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 2.519401 ms (FindLiveObjects: 0.131741 ms CreateObjectMapping: 0.061458 ms MarkObjects: 1.985655 ms  DeleteObjects: 0.339883 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2495.
+Total: 2.549039 ms (FindLiveObjects: 0.131731 ms CreateObjectMapping: 0.056572 ms MarkObjects: 1.971616 ms  DeleteObjects: 0.388486 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.8 MB.
+System memory in use after: 236.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2497.
+Total: 2.511273 ms (FindLiveObjects: 0.128504 ms CreateObjectMapping: 0.055595 ms MarkObjects: 1.958169 ms  DeleteObjects: 0.368396 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
