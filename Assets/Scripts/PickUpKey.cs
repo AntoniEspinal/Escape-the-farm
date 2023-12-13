@@ -5,10 +5,11 @@ using UnityEngine;
 public class PickUpKey : MonoBehaviour
 {
     public GameObject KeyOnPlayer;
+    public PickUpItems pickUpItems;
     // Start is called before the first frame update
     void Start()
     {
-        KeyOnPlayer.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -19,11 +20,11 @@ public class PickUpKey : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Key")
         {
             if (Input.GetKeyDown(KeyCode.P))
             {
-                this.gameObject.SetActive(false);
+                Destroy(other.gameObject);
 
                 KeyOnPlayer.SetActive(true);
             }        

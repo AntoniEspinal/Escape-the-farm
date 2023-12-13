@@ -6842,7 +6842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08fdcbd26a5d45f7bb07cf2b122bebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyOnPlayer: {fileID: 8414389780997098184, guid: df99d551c493a4451bb0f2171c506f43, type: 3}
+  KeyOnPlayer: {fileID: 283776248}
+  pickUpItems: {fileID: 0}
 --- !u!82 &1723468868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6853,7 +6854,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c05aeaa83e9ae488f80aa572603d610c, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
