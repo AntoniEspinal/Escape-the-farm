@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUpKey : MonoBehaviour
 {
-    public GameObject KeyOnPlayer;
+    public GameObject KeyWithPlayer;
     public PickUpItems pickUpItems;
     // Start is called before the first frame update
     void Start()
@@ -22,11 +22,11 @@ public class PickUpKey : MonoBehaviour
     {
         if (other.gameObject.tag == "Key")
         {
-            if (Input.GetKeyDown(KeyCode.P))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 Destroy(other.gameObject);
 
-                KeyOnPlayer.SetActive(true);
+                KeyWithPlayer.SetActive(true);
             }        
         }
         

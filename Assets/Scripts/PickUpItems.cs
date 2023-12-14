@@ -10,5 +10,6 @@ public class PickUpItems : ScriptableObject
     public bool hasKey = false;
     public Color keyColor;
     
+    
 
 }
