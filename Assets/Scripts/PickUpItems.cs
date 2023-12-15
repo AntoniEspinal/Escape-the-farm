@@ -6,9 +6,12 @@ using UnityEngine;
 
 public class PickUpItems : ScriptableObject
 {
-    public string item = "New PickUpItems";
+    public GameObject key;
+    public string itemName = "New PickUpItems";
     public bool hasKey = false;
     public Color keyColor;
+    
+
     
     
 

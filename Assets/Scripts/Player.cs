@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     private Vector3 crouchScale = new Vector3(2, 0.5f, 2);
     private Vector3 playerScale = new Vector3(3, 3f, 3);
 
+    [SerializeField] PickUpItems[] pickUpItems;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +38,22 @@ public class Player : MonoBehaviour
         {
             transform.localScale = playerScale;
             transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
-        } 
+     
+        }
+
+        foreach(PickUpItems key in pickUpItems) 
+        {
+            if(key.hasKey == true)
+            {
+                StartCoroutine(OpenDoor());
+            }
+        }
+    }
+
+    IEnumerator OpenDoor()
+    {
+        Debug.Log("Open Sesame");
+        yield return new WaitForSeconds(2); 
     }
 
 }

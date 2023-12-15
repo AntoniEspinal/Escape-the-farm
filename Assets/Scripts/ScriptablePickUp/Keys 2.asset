@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac77eda6ead55485cb159271c1ae5720, type: 3}
   m_Name: Keys 2
   m_EditorClassIdentifier: 
-  item: key 2
-  hasKey: 0
+  key: {fileID: 8414389780997098184, guid: df99d551c493a4451bb0f2171c506f43, type: 3}
+  itemName: Key 2
+  hasKey: 1
   keyColor: {r: 0.08650637, g: 0.3018868, b: 0.046991818, a: 0}
