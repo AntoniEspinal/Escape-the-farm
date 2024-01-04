@@ -26,10 +26,10 @@ public class PauseMenu : MonoBehaviour
             isFirstTime = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.Tab))
-        {
-            SceneManager.LoadScene("PauseMenu");
-            
+        if(Input.GetKeyDown(KeyCode.P))
+        {   
+
+            Debug.Log("Pause");
             if(isPaused)
             {
                 ResumeGame();
@@ -65,7 +65,7 @@ public class PauseMenu : MonoBehaviour
      public void Restart()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Manor");
+        SceneManager.LoadScene("level");
     }
         
     
