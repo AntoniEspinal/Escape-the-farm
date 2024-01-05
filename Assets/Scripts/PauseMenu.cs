@@ -15,7 +15,8 @@ public class PauseMenu : MonoBehaviour
     {
         // on start pause menu is not activated 
        pauseMenu.SetActive(false);
-    }    
+       
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,9 +28,7 @@ public class PauseMenu : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.P))
-        {   
-
-            Debug.Log("Pause");
+        {
             if(isPaused)
             {
                 ResumeGame();
@@ -47,26 +46,30 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+
+        Cursor.lockState = CursorLockMode.None; // unlocks curosr when paused
+        Cursor.visible = true;
     }
 
     public void ResumeGame()
     {
-         // deactivate the pause screen and unfreezes game 
+        // deactivate the pause screen and unfreezes game 
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+
+        Cursor.lockState = CursorLockMode.Locked; //locks cursor when game isnt paused
+        Cursor.visible = false;
     }
-     public void GoToMainMenu()
+    public void GoToMainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
     }
-
-     public void Restart()
+    public void Restart()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("level");
     }
-        
     
 }
