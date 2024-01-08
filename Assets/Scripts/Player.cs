@@ -10,12 +10,18 @@ public class Player : MonoBehaviour
     float forwardInput;
 
     PickUpKey pickUpKeyScript;
+    SafeKey safeKeyScript;
     DoorControllere door; 
+
+    bool isDoorOpen = false;
+    bool isSafeDoorOpen = false;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         door = GameObject.Find("Door Hinge").GetComponent<DoorControllere>();
         pickUpKeyScript = GameObject.Find("Key").GetComponent<PickUpKey>();
+        safeKeyScript = GameObject.Find("Safe Key").GetComponent<SafeKey>();
         playerRb = GetComponent<Rigidbody>();
     }
 
@@ -28,9 +34,16 @@ public class Player : MonoBehaviour
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
 
-        if(pickUpKeyScript.hasKey == true)
+        if(!isDoorOpen && pickUpKeyScript.hasKey == true)
         {
             door.OpenDoor();
+            isDoorOpen = true;
+
+        }else if(!isDoorOpen && pickUpKeyScript.hasKey == true)
+        {
+            door.OpenDoor();
+            isDoorOpen = true;
+
         }
        
         

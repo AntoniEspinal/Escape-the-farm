@@ -20,12 +20,12 @@ public class DoorControllere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void OpenDoor ()
+    public void OpenDoor()
     {
-            ChangeCurrentAngle();
+        ChangeCurrentAngle();
         transform.rotation = Quaternion.Slerp(transform.rotation, currentAngle, 0.5f);
     }
 
@@ -34,6 +34,7 @@ public class DoorControllere : MonoBehaviour
         if(currentAngle.eulerAngles.y == startAngle.eulerAngles.y) 
         {
            currentAngle = endAngle;
+           Debug.Log(currentAngle);
         }else 
         {   
             currentAngle = startAngle;
