@@ -8,14 +8,20 @@ public class Player : MonoBehaviour
     public float speed = 5.0f;
     float horizontalInput;
     float forwardInput;
-    private Vector3 crouchScale = new Vector3(2, 0.5f, 2);
-    private Vector3 playerScale = new Vector3(3, 3f, 3);
 
-    [SerializeField] PickUpItems[] pickUpItems;
+    PickUpKey pickUpKeyScript;
+    SafeKey safeKeyScript;
+    DoorControllere door; 
+
+    bool isDoorOpen = false;
+    bool isSafeDoorOpen = false;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        door = GameObject.Find("Door Hinge").GetComponent<DoorControllere>();
+        pickUpKeyScript = GameObject.Find("Key").GetComponent<PickUpKey>();
+        safeKeyScript = GameObject.Find("Safe Key").GetComponent<SafeKey>();
         playerRb = GetComponent<Rigidbody>();
     }
 
@@ -26,34 +32,20 @@ public class Player : MonoBehaviour
         forwardInput = Input.GetAxis("Vertical");
 
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);  
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
 
-        if(Input.GetKeyDown(KeyCode.C))
+        if(!isDoorOpen && pickUpKeyScript.hasKey == true)
         {
-            transform.localScale = crouchScale;
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
-        }
+            door.OpenDoor();
+            isDoorOpen = true;
 
-        if(Input.GetKeyUp(KeyCode.C))
+        }else if(!isDoorOpen && pickUpKeyScript.hasKey == true)
         {
-            transform.localScale = playerScale;
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
-     
-        }
+            door.OpenDoor();
+            isDoorOpen = true;
 
-        foreach(PickUpItems key in pickUpItems) 
-        {
-            if(key.hasKey == true)
-            {
-                StartCoroutine(OpenDoor());
-            }
         }
+       
+        
     }
-
-    IEnumerator OpenDoor()
-    {
-        Debug.Log("Open Sesame");
-        yield return new WaitForSeconds(2); 
-    }
-
 }

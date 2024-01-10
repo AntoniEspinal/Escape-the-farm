@@ -4,32 +4,30 @@ using UnityEngine;
 
 public class PickUpKey : MonoBehaviour
 {
+    public GameObject key;
 
-    public PickUpItems pickUpItems;
-    Renderer rend;
+    public bool hasKey = false;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        rend = GetComponent<Renderer>();
-        rend.material.color = pickUpItems.keyColor;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (Input.GetKey(KeyCode.E))
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                pickUpItems.hasKey = true;
-                Destroy(gameObject);
-            }        
+            hasKey = true;
+
+            
+            this.gameObject.SetActive(false);
+            
         }
-        
     }
 }
