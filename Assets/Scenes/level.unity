@@ -14493,6 +14493,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9716981
       objectReference: {fileID: 0}
+    - target: {fileID: 7183116781651836831, guid: 0cbdb4ce18c9a4aafab81c5b4865b7e9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7183116781914336954, guid: 0cbdb4ce18c9a4aafab81c5b4865b7e9, type: 3}
       propertyPath: m_text
       value: ' Postponing Death'
@@ -14588,3 +14592,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a99a55aa57b6041d38f93c60967e027d, type: 3}
+--- !u!1 &8735768778920465170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8735768780401433458, guid: a99a55aa57b6041d38f93c60967e027d, type: 3}
+  m_PrefabInstance: {fileID: 8735768778920465169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8735768778920465171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8735768778920465170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21ac29beb9ec4af7a0c6e696b6923d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
