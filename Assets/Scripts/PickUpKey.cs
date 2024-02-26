@@ -19,9 +19,9 @@ public class PickUpKey : MonoBehaviour
         
     }
 
-    private void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.E) && other.gameObject.name == "Player")
         {
             hasKey = true;
 
