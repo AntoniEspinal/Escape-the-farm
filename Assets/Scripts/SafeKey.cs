@@ -5,6 +5,7 @@ using UnityEngine;
 public class SafeKey : MonoBehaviour
 {
     public GameObject safeKeyObject;
+    
     public bool hasSafeKey = false;
     
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class SafeKey : MonoBehaviour
         {
             hasSafeKey = true;
             this.gameObject.SetActive(false);
+           
             
         }
     }
