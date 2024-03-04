@@ -18,6 +18,9 @@ public class Player : MonoBehaviour
     bool isSafeDoorOpen = false;
     public GameObject triggerlvl;
 
+    private Vector3 crouchScale = new Vector3(2, 1.5f, 2);
+    private Vector3 playerScale = new Vector3(3, 3f, 3);
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -49,7 +52,19 @@ public class Player : MonoBehaviour
             triggerlvl.gameObject.SetActive(true);
 
         }
-       
+
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            transform.localScale = crouchScale;
+            transform.position = new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z);
+        }
+
+        if(Input.GetKeyUp(KeyCode.C))
+        {
+            transform.localScale = playerScale;
+            transform.position = new Vector3(transform.position.x, transform.position.y + 1.5f, transform.position.z);
+        }
+
         
     }
 }
