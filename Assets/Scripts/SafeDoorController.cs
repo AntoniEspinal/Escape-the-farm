@@ -5,7 +5,7 @@ using UnityEngine;
 public class SafeDoorController : MonoBehaviour
 {
     Quaternion startAngle = Quaternion.Euler(0,0,0);
-    Quaternion endAngle = Quaternion.Euler(0,-90,0);
+    Quaternion endAngle = Quaternion.Euler(0,-180,0);
     Quaternion currentAngle;
     
     // Start is called before the first frame update

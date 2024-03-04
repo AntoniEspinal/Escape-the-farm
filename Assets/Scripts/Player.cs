@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     bool isDoorOpen = false;
     bool isSafeDoorOpen = false;
+    public GameObject triggerlvl;
 
     // Start is called before the first frame update
     void Awake()
@@ -45,6 +46,7 @@ public class Player : MonoBehaviour
         {
             safeDoor.OpenSafeDoor();
             isSafeDoorOpen = true;
+            triggerlvl.gameObject.SetActive(true);
 
         }
        
