@@ -13500,7 +13500,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8735768780401433458, guid: a99a55aa57b6041d38f93c60967e027d, type: 3}
   m_PrefabInstance: {fileID: 649450669}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &345266236
+--- !u!114 &345266230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13509,7 +13509,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 345266229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adbb06ecc4c784ee6b7cae84068e41e4, type: 3}
+  m_Script: {fileID: 11500000, guid: d6b58fe37847c483a85188024d10272e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
@@ -13637,7 +13637,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8735768780401433465, guid: a99a55aa57b6041d38f93c60967e027d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a99a55aa57b6041d38f93c60967e027d, type: 3}
 --- !u!43 &857842956
 Mesh:
