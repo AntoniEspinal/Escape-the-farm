@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class SafeDoorController : MonoBehaviour
 {
-    Quaternion startAngle = Quaternion.Euler(0,0,0);
-    Quaternion endAngle = Quaternion.Euler(0,-180,0);
-    Quaternion currentAngle;
+    Animator anim;
     
     // Start is called before the first frame update
     void Start()
     {
-        currentAngle = startAngle;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,20 +20,8 @@ public class SafeDoorController : MonoBehaviour
 
     public void OpenSafeDoor()
     {
-        ChangeCurrentAngle();
-        transform.rotation = Quaternion.Slerp(transform.rotation, currentAngle, 0.5f);
+        anim.SetTrigger("OpenDoor");
     }
 
-    void ChangeCurrentAngle()
-    {
-        if(currentAngle.eulerAngles.y == startAngle.eulerAngles.y) 
-        {
-           currentAngle = endAngle;
-           
-        }else 
-        {   
-            currentAngle = startAngle;
-        }
-    }
 
 }
