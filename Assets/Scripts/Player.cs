@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     bool isDoorOpen = false;
     bool isSafeDoorOpen = false;
+    public GameObject triggerlvl;
 
     private Vector3 crouchScale = new Vector3(2, 1.5f, 2);
     private Vector3 playerScale = new Vector3(3, 3f, 3);
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
         {
             safeDoor.OpenSafeDoor();
             isSafeDoorOpen = true;
+            triggerlvl.gameObject.SetActive(true);
 
         }
 
