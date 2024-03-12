@@ -27,7 +27,7 @@ public class PauseMenu : MonoBehaviour
             isFirstTime = false;
         }
 
-        if(Input.GetKeyDown(KeyCode.P))
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
             if(isPaused)
             {
