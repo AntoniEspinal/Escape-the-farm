@@ -1111,7 +1111,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Sound Affects by \nNormal click by Breviceps -- https://freesound.org/s/448086/
-    -- License: Creative Commons 0"
+    -- License: Creative Commons 0 \nhttps://freesfx.co.uk/sfx/walking"
 --- !u!222 &1404362369
 CanvasRenderer:
   m_ObjectHideFlags: 0
