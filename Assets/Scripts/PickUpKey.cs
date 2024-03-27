@@ -2,32 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickUpKey : MonoBehaviour
+public class PickUpKey : MonoBehaviour, IInteractable
 {
-    public GameObject key;
+    public GameObject levelTrigger;
+   public void Interact()
+   {
+    levelTrigger.SetActive(true);
+    GameObject.Find("Door Hinge").GetComponent<Animator>().SetTrigger("OpenDoor");
+      Destroy(gameObject);
 
-    public bool hasKey = false;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
+   }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        if (Input.GetKey(KeyCode.E) && other.gameObject.name == "Player")
-        {
-            hasKey = true;
-
-            
-            this.gameObject.SetActive(false);
-            
-        }
-    }
 }
