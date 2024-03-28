@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SafeKey : MonoBehaviour
+public class SafeKey : MonoBehaviour, IInteractable
 {
-    public GameObject safeKeyObject;
-  
-    
-    public bool hasSafeKey = false;
+    public void Interact()
+   {
+      GameObject.Find("Safe Door Hinge").GetComponent<Animator>().SetTrigger("OpenDoor");
+      Destroy(gameObject);
+   }   
     
 
 
