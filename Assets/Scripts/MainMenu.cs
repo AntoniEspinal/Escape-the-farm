@@ -28,6 +28,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("OptionMenu");
     }
+    public void Character()
+    {
+        SceneManager.LoadScene("Character");
+    }
     public void Quit()
     {
         Application.Quit();
