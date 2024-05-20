@@ -4,28 +4,17 @@ using UnityEngine;
 
 public class FrontDoorKey : MonoBehaviour, IInteractable
 {
-    
+    public static int frontDoorKeyCount = 0;
     public void Interact()
     {
-        GameObject.Find("Front Door").GetComponent<Animator>().SetTrigger("OpenFrontDoor");
+        frontDoorKeyCount++;
         Destroy(gameObject);
 
-    }
-    
-    
-    
-    
-    
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+        if(frontDoorKeyCount >= 2)
+        {
+            GameObject.Find("Front Door").GetComponent<Animator>().SetTrigger("OpenFrontDoor");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
+    
 }
