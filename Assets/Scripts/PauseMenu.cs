@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
     {
         // deactivate the pause screen and unfreezes game 
         pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
         isPaused = false;
 
         Cursor.lockState = CursorLockMode.Locked; //locks cursor when game isnt paused
@@ -63,12 +63,12 @@ public class PauseMenu : MonoBehaviour
     }
     public void GoToMainMenu()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
         SceneManager.LoadScene("Main Menu");
     }
     public void Restart()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
         SceneManager.LoadScene("level");
     }
     
