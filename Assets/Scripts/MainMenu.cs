@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public bool isGameActive;
-
+    public GameObject quitPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,17 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Player Has Quit The Game");
+    }
+
+    public void ExitGame()
+    {
+
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
+    
     }
     
     public void LoadScene(string sceneName)

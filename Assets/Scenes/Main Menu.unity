@@ -416,6 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGameActive: 0
+  quitPanel: {fileID: 0}
 --- !u!1 &326817575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGameActive: 0
+  quitPanel: {fileID: 1158584325}
 --- !u!82 &1158584328
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1663,7 +1665,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1158584327}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Quit
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
