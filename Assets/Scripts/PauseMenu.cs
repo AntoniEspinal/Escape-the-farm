@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     {
         // activates the pause menu and freezes game 
         pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
+        Time.timeScale = 1.0f;
         isPaused = true;
 
         // unlocks curosr when paused
@@ -52,7 +52,7 @@ public class PauseMenu : MonoBehaviour
     {
         // deactivate the pause screen and unfreezes game 
         pauseMenu.SetActive(false);
-        Time.timeScale = 0f;
+        Time.timeScale = 1.0f;
         isPaused = false;
 
         //locks cursor when game isnt paused
@@ -61,18 +61,18 @@ public class PauseMenu : MonoBehaviour
     }
     public void GoToMainMenu()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("Main Menu");
     }
     public void Restart()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("level");
     }
 
     public void ExitGame()
     {
-
+        Time.timeScale = 1.0f;
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #else
