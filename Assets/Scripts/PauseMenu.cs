@@ -34,13 +34,15 @@ public class PauseMenu : MonoBehaviour
                 PauseGame();
             }
         }
+
+        
     }
 
    public void PauseGame()
     {
         // activates the pause menu and freezes game 
         pauseMenu.SetActive(true);
-        Time.timeScale = 1.0f;
+        Time.timeScale = 0.0f;
         isPaused = true;
 
         // unlocks curosr when paused
@@ -61,6 +63,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void GoToMainMenu()
     {
+        Debug.Log("go back");
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("Main Menu");
     }
@@ -80,5 +83,7 @@ public class PauseMenu : MonoBehaviour
         #endif
     
     }
+
+    
     
 }
